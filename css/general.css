@@ -1,0 +1,51 @@
+
+.btn,
+.btn--solid:link,
+.btn--solid:visited {
+    display: inline-block;
+    background-color: #7048e8;
+    padding: 1rem 4rem;
+    color: #f3f0ff;
+    text-decoration: none;
+
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 500;
+
+    transition: all 0.3s;
+}
+
+.btn--solid:hover,
+.btn--solid:active {
+    background-color: #5f3dc4;
+}
+
+/* ANIMATIONS */
+@keyframes moveInTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.btn--animate {
+    animation: moveInTop 1s ease-out .75s;
+    animation-fill-mode: backwards;
+}

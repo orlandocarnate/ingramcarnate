@@ -20,6 +20,10 @@
     background-color: #5f3dc4;
 }
 
+section {
+    padding-bottom: 6rem;
+}
+
 /* ANIMATIONS */
 @keyframes moveInTop {
     0% {

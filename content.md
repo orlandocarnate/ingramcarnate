@@ -60,3 +60,15 @@ and men looking to achieve that next level of professionalism.
 * Book Your Appointment with us.
 * Our customer experience cannot be beat!
 * Appointment Form
+
+
+## 7 Steps to building a great website
+1. Define - who, what, target audience
+2. Plan
+3. Sketch
+4. Design and Build
+5. Test and Optimize
+6. Launch
+7. Maintain and Update
+
+ 

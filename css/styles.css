@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    font-size: 10px;
 }
 
 html {
@@ -10,6 +9,7 @@ html {
     font-family: 'Urbanist', sans-serif;
     background-color: #212529;
     color: #e9ecef;
+    font-size: 62.5%;
 }
 
 .nav-bar {
@@ -44,23 +44,23 @@ html {
         url('../img/hero.jpg');
 
     background-size: cover;
-    background-position: top;
+    background-position: top left;
 
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 
-.heading-text-box {
+.header__text-box {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 60%;
     transform: translate(-50%, -50%);
-    text-align: center;
+    /* text-align: center; */
 }
-.heading-primary {
+.heading-primary--main {
     display: block;
     white-space: nowrap;
     font-family: 'Playfair Display', serif;
-    font-size: 8rem;
+    font-size: 6rem;
     font-weight: 500;
     /* letter-spacing: .5rem; */
     /* text-transform: uppercase; */
@@ -71,13 +71,13 @@ html {
     margin-bottom: 1rem;
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
     display: block;
     white-space: nowrap;
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     color: #fff;
-    font-size: 4rem;
+    font-size: 3rem;
     
     animation: moveInBottom 1s ease-out;
     animation-fill-mode: backwards;
@@ -85,7 +85,39 @@ html {
     margin-bottom: 8rem;
 }
 
+.section__all-occasions {
+    padding: 8rem 25rem;
+    background-color: #f1f3f5;
+    color: #333;
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
 
+.card {
+    width: 30rem;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+
+.card-img {
+    object-fit: cover;
+    width: 30rem;
+    height: 42rem;
+}
+
+.card-text {
+    font-size: 1.8rem;
+    padding: 2rem 0;
+    /* text-align: center; */
+    line-height: 1.5;
+}
+.card-text h2 {
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
 
 .section-featured {
     min-height: 50vh;

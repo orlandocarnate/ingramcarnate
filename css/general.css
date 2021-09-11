@@ -24,6 +24,10 @@ section {
     padding-bottom: 6rem;
 }
 
+.container {
+    padding: 0 16rem;
+}
+
 /* ANIMATIONS */
 @keyframes moveInTop {
     0% {

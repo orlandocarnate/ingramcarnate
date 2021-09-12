@@ -1,16 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
 
-html {
-    box-sizing: border-box;
-    font-family: 'Urbanist', sans-serif;
-    color: #333;
-    font-size: 62.5%;
-}
-
+/****************  NAV BAR *****************/
 .nav-bar {
     height: 5rem;
     background-color: #212529;
@@ -32,6 +21,7 @@ html {
     
 }
 
+/**************** HEADER *****************/
 .header {
     height: 80vh;
     position: relative;
@@ -84,14 +74,12 @@ html {
     margin-bottom: 8rem;
 }
 
+/**************** ALL OCCASIONS SECTION *****************/
 .section__all-occasions {
-    padding: 8rem 25rem;
+    padding: 9.6rem 0;
     /* background-color: #f1f3f5; */
     color: #333;
     min-height: 80vh;
-    display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
 }
 
 .card {
@@ -118,14 +106,15 @@ html {
     padding-bottom: 2rem;
 }
 
+/**************** QUALITY SECTION *****************/
 .section-quality-assurance {
-    padding: 8rem 15rem;
+    padding-top: 9.6rem;
     font-size: 2.4rem;
     font-weight: 700;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     text-align: center;
-    gap: 10rem
+    /* gap: 10rem */
 }
 
 .qa-icons {
@@ -133,13 +122,13 @@ html {
     height: 4rem;
 }
 
+/**************** COLLECTIONS SECTION *****************/
 .section-collection {
-    height: 70vh;
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
     background-color: #212529;
-    display: flex;
-    align-items: center;
-    gap: 15rem
 }
+
 
 .collection-text-box {
     font-size: 2.4rem;
@@ -164,6 +153,7 @@ html {
 
 .collection-img-sub {
     /* display: inline-block; */
+    padding: 9.6rem 0;
     object-fit: cover;
     width: 30rem;
     height: 40rem;
@@ -174,16 +164,121 @@ html {
     z-index: 2;
 }
 
+
+/**************** TESTIMONIALS SECTION *****************/
+.section-testimonials {
+    padding-top: 4.8rem;
+    /* min-height: 50vh; */
+}
+
+/**************** PROCESS SECTION *****************/
+.section-process {
+    background-color: #212529;
+    color: #f8f9fa
+}
+
+/**************** FEATURES SECTION *****************/
 .section-feature {
-    padding: 10rem 15rem;
-    min-height: 70vh;
-    background-color: #222;
-    padding-bottom: 4.8rem;
+    padding-top: 4.8rem;
+    /* padding-bottom: 9.6rem; */
+    color: #fff;
+    /* min-height: 70vh; */
+    background-color: #212529;
     /* clip-path: polygon(0 8%, 100% 0%, 100% 100%, 0 100%); */
 }
-.section-clients {
-    min-height: 50vh;
-}
+
+
+/**************** CTA SECTION *****************/
 .section-cta {
-    min-height: 50vh;
+    /* min-height: 50vh; */
+    padding: 9.6rem 0 12.8rem 0;
+    
+}
+
+.cta {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 9.6rem;
+    background-color: #9775fa;
+    overflow: hidden;
+
+    height: 54rem;
+}
+
+.cta-text-box {
+    padding: 4.8rem 6.4rem;
+    color: #f3f0ff
+}
+
+.cta-text-box .subheading {
+    color: #f3f0ff;
+    margin-bottom: 2.4rem;
+}
+
+.cta-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3.2rem;
+    column-gap: 2.4rem;
+}
+
+.cta-form input::placeholder,
+.cta-select-box select:invalid {
+  color: #aaa;
+}
+
+
+.cta-label {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+
+.cta-input,
+.cta-select {
+    width: 100%;
+    border: none;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    background-color: #f3f0ff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.836);
+}
+
+.cta-checkbox {
+    display: flex;
+    margin-bottom: 1.2rem;
+}
+
+.cta-checkbox input {
+    width: 2rem;
+    height: 2rem;
+}
+
+.cta-checkbox-label {
+    padding-left: .8rem;
+    font-size: 1.8rem;
+}
+
+.btn--form {
+    background-color: #5f3dc4;
+    font-family: inherit;
+    border: none;
+}
+
+.btn--form:hover {
+    background-color: #e5dbff;
+    color: #5f3dc4;
+}
+
+.cta-img {
+    background-image: linear-gradient(
+            to right bottom,
+            rgba(178, 6, 241, 0.326),
+            rgba(0, 128, 255, 0.353)
+        ),
+        url('../img/style-1.jpg');
+        background-size: cover;
+        background-position: center;
 }

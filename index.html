@@ -17,7 +17,7 @@
     />
 
 
-
+    <script defer src="js/script.js"></script>
 
     <link rel="stylesheet" href="./css/general.css" />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -37,76 +37,81 @@
           Servicing Chicago and Northwest Suburbs</span
         >
 
-        <a class="btn btn--white btn--animate" href="#">Make an appointment now &darr;</a>
+        <a class="btn btn--white btn--animate" href="#cta">Make an appointment now &darr;</a>
       </div>
     </header>
 
     <section class="section__all-occasions">
-      <div class="card">
-        <img
+      <div class="container grid grid--3-cols">
+        <div class="card">
+          <img
+            class="card-img"
+            alt="formal attire"
+            src="./img/jermey-jordan-1_orig.jpg"
+          />
+          <div class="card-text">
+            <h2>Formal</h2>
+            <p>            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+              eius non voluptatibus dolorum. Voluptatem magnam cum totam officia
+              quo temporibus pariatur sit corporis, ex itaque distinctio ullam
+              quas inventore natus?
+            </p>
+          </div>
+        </div>
+  
+        <div class="card">
+          <img
           class="card-img"
           alt="formal attire"
-          src="./img/jermey-jordan-1_orig.jpg"
-        />
-        <div class="card-text">
-          <h2>Formal</h2>
-          <p>            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            eius non voluptatibus dolorum. Voluptatem magnam cum totam officia
-            quo temporibus pariatur sit corporis, ex itaque distinctio ullam
-            quas inventore natus?
-          </p>
+          src="./img/style-2.jpg"
+          />
+          <div class="card-text">
+            <h2>Business</h2>
+            <p>            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas,
+              error veniam accusantium harum expedita quas. Provident consequatur
+              veniam, maiores quod dolore illo inventore aut voluptates optio
+              suscipit accusantium. Laboriosam, vero.
+            </p>
+          </div>
         </div>
-      </div>
+  
+        <div class="card">
+          <img
+            class="card-img"
+            alt="formal attire"
+            src="./img/casual-1.jpg"
+          />
+          <div class="card-text">
+            <h2>Casual</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              autem laborum voluptas repellendus in, ipsam recusandae repudiandae
+              amet soluta eveniet accusamus dolorum omnis ea, possimus modi
+              tenetur. Obcaecati, nostrum eum.
+            </p>
+          </div>
+        </div>
 
-      <div class="card">
-        <img
-        class="card-img"
-        alt="formal attire"
-        src="./img/style-2.jpg"
-        />
-        <div class="card-text">
-          <h2>Business</h2>
-          <p>            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas,
-            error veniam accusantium harum expedita quas. Provident consequatur
-            veniam, maiores quod dolore illo inventore aut voluptates optio
-            suscipit accusantium. Laboriosam, vero.
-          </p>
-        </div>
-      </div>
-
-      <div class="card">
-        <img
-          class="card-img"
-          alt="formal attire"
-          src="./img/casual-1.jpg"
-        />
-        <div class="card-text">
-          <h2>Casual</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-            autem laborum voluptas repellendus in, ipsam recusandae repudiandae
-            amet soluta eveniet accusamus dolorum omnis ea, possimus modi
-            tenetur. Obcaecati, nostrum eum.
-          </p>
-        </div>
       </div>
     </section>
 
     
-    <section class="container section-collection">
-      <div class="collection-img">
-        <img class="collection-img-primary" src="./img/casual.jpg" alt="collection">
-        <!-- <img class="collection-img-sub" src="./img/casual.jpg" alt="collection"> -->
-      </div>
-      <div class="collection-text-box">
-        <h2>Explore our collection</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla eveniet, dolores magni maiores quo corporis esse quam? Ab, perferendis. Neque dolore aspernatur quae magni placeat natus repellat quod odit sapiente!</p>
+    <section class="section-collection">
+      <div class="container grid grid--2-cols">
+        <div class="collection-img">
+          <img class="collection-img-primary" src="./img/casual.jpg" alt="collection">
+          <!-- <img class="collection-img-sub" src="./img/casual.jpg" alt="collection"> -->
+        </div>
+        <div class="collection-text-box">
+          <h2>Explore our collection</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla eveniet, dolores magni maiores quo corporis esse quam? Ab, perferendis. Neque dolore aspernatur quae magni placeat natus repellat quod odit sapiente!</p>
 
-        <a class="btn" href="#">Explore now</a>
+          <a class="btn" href="#">Explore now</a>
+        </div>
       </div>
     </section>
     
-    <section class="section-quality-assurance">
+    <section class="container grid grid--4-cols section-quality-assurance">
       <div>
         <ion-icon class="qa-icons" name="ribbon-outline"></ion-icon>
         <h2> Top Quality</h2>
@@ -127,46 +132,120 @@
 
         
     <section class="section-feature">
-      <h2>We're here for you</h2>
-      Once we get you measured... Professional Dress for Men in Chicago and NW
-      Suburbs for business, casual and special life moments.
+      <div class="container">
+        <div class="subheading">We're here for you</div>
+        <p>Once we get you measured... Professional Dress for Men in Chicago and NW
+        Suburbs for business, casual and special life moments.</p>
+      </div>
+
+      
     </section>
 
-    <section class="section-testemonials">
-      Professional Dress for Men in Chicago and NW Suburbs for business, casual
-      and special life moments.
+    <section class="section-testimonials">
+      <div class="container">
+             <div class="subheading">Testimonials</div>
+        <p>
+          Professional Dress for Men in Chicago and NW Suburbs for business, casual
+          and special life moments.
+        </p> 
+        <p>
+          Our primary clients are attorneys, entrepreneurs, salesmen, CEOs and men
+          looking to achieve that next level of professionalism.
+        </p>
+        <p>
+          Professional dress for business, casual and those special life moments.
+          The right clothing is the best way to always look your absolute best and
+          feel confident. Whether your style is conservative or you like a little
+          pop, we work with your style tastes, personality and need to fashion
+          your best outfits for business, pleasure or that special life moment.
+          *All suits, jackets, dress shirts, slacks and overcoats are custom
+          designed and tailored for your right fit.
+        </p>
+      </div>
+
     </section>
 
-    <section class="section-steps">
-      <h2>The Process</h2>
-      <ol>
-        <li>Meet</li>
-        <li>Materials</li>
-        <li>Measure</li>
-        <li>Follow-up</li>
-        <li>Deliver</li>
-      </ol>
+    <section class="section-process">
+      <div class="container">
+        <div class="subheading">Our Process</div>
+  
+        <h2>1</h2>
+        <p>Our designers will work with you in creating your perfect garment beginning with the function of your item whether for a special event, business or classy casual outings.</p>
+        
+        <h2>2</h2>
+        <p>We'll then walk you through the design process and make our professional recommendations. </p>
+   
+        <h2>3</h2>
+        <p>Choose fabrics, buttons and styling options such as lapels, garment cuts and more. </p>
+   
+        <p>Our designers are with you every step of the way to ensure you'll love your custom IngramCarnate garment.</p>
+      
+        <a class="btn btn--white btn--animate" href="#cta">Make an appointment now &darr;</a>
+
+      </div>
     </section>
 
-    <section class="section-clients">
-      <h1>
-        Our primary clients are attorneys, entrepreneurs, salesmen, CEOs and men
-        looking to achieve that next level of professionalism.
-      </h1>
-      <p>
-        Professional dress for business, casual and those special life moments.
-        The right clothing is the best way to always look your absolute best and
-        feel confident. Whether your style is conservative or you like a little
-        pop, we work with your style tastes, personality and need to fashion
-        your best outfits for business, pleasure or that special life moment.
-        *All suits, jackets, dress shirts, slacks and overcoats are custom
-        designed and tailored for your right fit.
-      </p>
-    </section>
 
-    <section class="section-cta">
-      <h1>Book Your Appointment with us.</h1>
-      <q>Our customer experience cannot be beat!</q>
+    <section class="section-cta" id="cta">
+    <div class="container">
+      <div class="cta">
+        <div class="cta-text-box">
+          <div class="subheading">Book Your Appointment</div>
+          
+          <form action="" class="cta-form">
+            <div>
+              <label class="cta-label" for="fullname">Full Name</label>
+              <input class="cta-input" type="text" id="fullname" name="name" placeholder="John Doe" required />
+            </div>
+  
+            <div>
+              <label class="cta-label" for="email">Email</label>
+              <input class="cta-input" type="email" name="email" placeholder="name@example.com" id="email" required />
+            </div>
+  
+            <div class="cta-select-box">
+              <label class="cta-label" for="select-time">Best Appointment Time</label>
+              <select class="cta-select" name="select-when" id="select-when" required>
+                <option value="">Please choose one option</option>
+                <option value="weekday morning">Weekday Morning</option>
+                <option value="weekday afternoon">Weekday Afternoon</option>
+                <option value="weekday evening">Weekday Evening</option>
+                <option value="weekend morning/afternoon">Weekend Morning/Afternoon</option>
+              </select>
+            </div>
+  
+            <div>
+              <label class="cta-label" for="select-occasion">Select one or more occasions</label>
+              
+              <div class="cta-checkbox">
+                <input type="checkbox" name="formal" id="formal">
+                <label class="cta-checkbox-label" for="formal">Formal Events</label>
+              </div>
+    
+              <div class="cta-checkbox">
+                <input type="checkbox" name="business" id="business">
+                <label class="cta-checkbox-label" for="business">Business Attire</label>
+              </div>
+    
+              <div class="cta-checkbox">
+                <input type="checkbox" name="casual" id="casual">
+                <label class="cta-checkbox-label" for="casual">Casual Outings</label>
+              </div>
+
+            </div>
+  
+            <div>
+              <button class="btn btn--form">Book Now</button>
+
+            </div>
+  
+          </form>
+        </div>
+
+        <div class="cta-img" role="img" aria-label="nice suit"></div>
+
+      </div>
+      </div>
     </section>
 
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

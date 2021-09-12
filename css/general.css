@@ -104,3 +104,14 @@ section {
     animation: moveInTop 1s ease-out .75s;
     animation-fill-mode: backwards;
 }
+
+@keyframes backgroundScale {
+    0% {
+        background-size: 100%;
+        /* background-position-x: 0; */
+    }
+    100% {
+        background-size: 110%;
+        /* background-position-x: -150px; */
+    }
+}

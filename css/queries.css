@@ -3,9 +3,9 @@
 /***************************************/
 
 @media (max-width: 84em) {
-    html {
-        font-size: 58%;
-    }
+  html {
+    font-size: 58%;
+  }
 }
 
 /***************************************/
@@ -13,9 +13,9 @@
 /***************************************/
 
 @media (max-width: 75em) {
-    html {
-        font-size: 52%;
-    }
+  html {
+    font-size: 52%;
+  }
 }
 
 /***************************************/
@@ -23,9 +23,34 @@
 /***************************************/
 
 @media (max-width: 59em) {
-    html {
-        font-size: 40%;
-    }
+  html {
+    font-size: 50%;
+  }
+
+  .grid {
+    margin: 0 10rem;
+  }
+
+  .grid--3-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .heading-primary--main {
+    margin-bottom: 3rem;
+  }
+
+  .heading-primary--sub {
+    margin-bottom: 8rem;
+  }
+
+  .card-text {
+    font-size: 1.8rem;
+  }
+
+  .card-text h2 {
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+  }
 }
 
 /***************************************/
@@ -33,17 +58,65 @@
 /***************************************/
 
 @media (max-width: 44em) {
-    html {
-        font-size: 35%;
-    }
-}
+  html {
+    font-size: 45%;
+  }
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
 
+  .grid--3-cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid--4-cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .container {
+    /* padding: 0 4rem; */
+    margin: 0 auto;
+  }
+
+  .header__text-box {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 3.6em;
+  }
+  .card-text h2 {
+    font-size: 3.6rem;
+    margin: 0;
+    padding: 0;
+  }
+  .card-text {
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .grid {
+    row-gap: 4.8rem;
+  }
+  .collection-img-primary {
+    object-fit: cover;
+    width: 100%;
+  }
+}
 
 /***************************************/
 /* BELOW 544px (Phones) */
 /***************************************/
 @media (max-width: 34em) {
-    html {
-        font-size: 20%;
-    }
+  html {
+    font-size: 40%;
+  }
 }

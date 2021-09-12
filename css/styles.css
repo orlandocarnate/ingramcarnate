@@ -31,9 +31,12 @@
             rgba(82, 46, 226, 0.204),
             rgba(34, 32, 30, 0.891)),
         url('../img/hero.jpg');
-
+    /* transition: 1s ease background-size; */
     background-size: cover;
     background-position: top left;
+    /* background-position-x: -150px; */
+    /* animation: backgroundScale 3s ease-out; */
+    /* animation-fill-mode: backwards; */
 
     /* clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%); */
 }
@@ -84,21 +87,15 @@
 
 .card {
     width: 30rem;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
 }
 
 .card-img {
     object-fit: cover;
-    width: 30rem;
-    height: 42rem;
+    width: 100%;
 }
 
 .card-text {
     font-size: 1.8rem;
-    padding: 2rem 0;
-    /* text-align: center; */
     line-height: 1.5;
 }
 .card-text h2 {

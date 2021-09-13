@@ -144,7 +144,7 @@
   .header {
     background-image: 
         linear-gradient(
-            to bo,
+            to bottom,
             rgba(82, 46, 226, 0.204),
             rgba(34, 32, 30, 0.891)),
         url('../img/hero.jpg');

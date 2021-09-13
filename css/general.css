@@ -17,9 +17,14 @@ html {
     margin: 0 auto;
 }
 
+.heading {
+    font-size: 3.6rem;
+    padding-bottom: 2.4rem;
+}
+
 .subheading {
     text-transform: uppercase;
-    font-size: 3.2rem;
+    font-size: 2.4rem;
     font-weight: 600;
     color: #7048e8;
 

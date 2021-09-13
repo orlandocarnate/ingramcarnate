@@ -86,7 +86,7 @@
 }
 
 .card {
-    width: 30rem;
+    /* width: 30rem; */
 }
 
 .card-img {
@@ -168,6 +168,23 @@
     /* min-height: 50vh; */
 }
 
+.testimonial-img {
+    width: 12rem;
+    border-radius: 50%;
+    margin-bottom: 2.4rem;
+    
+}
+
+.testimonial-text {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    margin-bottom: 1.8rem;
+}
+
+.testimonial-name {
+    font-size: 1.8rem;
+    color: #495057;
+}
 /**************** PROCESS SECTION *****************/
 .section-process {
     background-color: #212529;
@@ -199,7 +216,7 @@
     background-color: #9775fa;
     overflow: hidden;
 
-    height: 54rem;
+    /* height: 54rem; */
 }
 
 .cta-text-box {

@@ -90,11 +90,21 @@
   }
 
   .header__text-box {
+    position: relative;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    padding: 0 2.4rem;
   }
+
+  /* .heading-primary--main {
+      font-size: 4.2rem;
+  }
+
+  .heading-primary--sub {
+      font-size: 2.4rem;
+  } */
 
   .card {
     width: 100%;
@@ -128,6 +138,37 @@
 /***************************************/
 @media (max-width: 34em) {
   html {
-    font-size: 40%;
+    font-size: 35%;
   }
+
+  .header {
+    background-image: 
+        linear-gradient(
+            to bo,
+            rgba(82, 46, 226, 0.204),
+            rgba(34, 32, 30, 0.891)),
+        url('../img/hero.jpg');
+    }
+
+    .header__text-box {
+        top: 60%;
+    }
+
+  .cta {
+      grid-template-columns: 1fr;
+  }
+
+  .cta-img {
+      height: 36rem;
+      grid-row: 1;
+      background-position: top;
+  }
+
+  .cta-form {
+      grid-template-columns: 1fr;
+  }
+
+  .btn--form {
+      width: 100%;
+  } 
 }

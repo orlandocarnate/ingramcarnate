@@ -1,40 +1,51 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 html {
-    box-sizing: border-box;
-    font-family: 'Urbanist', sans-serif;
-    color: #333;
-    font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+  color: #333;
+  font-size: 62.5%;
 }
 
+h1 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    padding-bottom: 4.5rem;
+}
+
+p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
 .container {
-    max-width: 120rem;
-    padding: 0 3.2rem;
-    margin: 0 auto;
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
 }
 
 .heading {
-    font-size: 3.6rem;
-    padding-bottom: 2.4rem;
+  font-size: 3.6rem;
+  padding-bottom: 2.4rem;
 }
 
 .subheading {
-    text-transform: uppercase;
-    font-size: 2.4rem;
-    font-weight: 600;
-    color: #7048e8;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #7048e8;
 
-    padding-bottom: 2.4rem;
+  padding-bottom: 2.4rem;
 }
 
 .grid {
-    display: grid;
-    row-gap: 9.6rem;
-    column-gap: 6.4rem;
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
 }
 
 /* apply a bottom margin to all grid classes EXCEPT last-child */
@@ -43,80 +54,85 @@ html {
 }
 
 .grid--2-cols {
-    grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .grid--3-cols {
-    grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .grid--4-cols {
-    grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
-
 
 .btn,
-.btn--solid:link,
-.btn--solid:visited {
-    display: inline-block;
-    background-color: #7048e8;
-    padding: 1rem 4rem;
-    color: #f3f0ff;
-    text-decoration: none;
+.btn--purple:link,
+.btn--purple:visited {
+  display: inline-block;
 
-    font-family: 'Playfair Display', serif;
-    font-size: 3rem;
-    font-weight: 500;
+  padding: 1rem 3rem;
+  margin: 0 3rem 3rem 0;
+  color: #f3f0ff;
+  text-decoration: none;
 
-    transition: all 0.3s;
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: 500;
+
+  transition: all 0.3s;
 }
 
-.btn--solid:hover,
-.btn--solid:active {
-    background-color: #5f3dc4;
+.btn--purple:link,
+.btn--purple:visited {
+  background-color: #845ef7;
+}
+
+.btn--purple:hover,
+.btn--purple:active {
+  background-color: #5f3dc4;
 }
 
 section {
-    padding-bottom: 6rem;
+  padding-bottom: 6rem;
 }
 
 /* ANIMATIONS */
 @keyframes moveInTop {
-    0% {
-        opacity: 0;
-        transform: translateY(-50px);
-    }
-    
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes moveInBottom {
-    0% {
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .btn--animate {
-    animation: moveInTop 1s ease-out .75s;
-    animation-fill-mode: backwards;
+  animation: moveInTop 1s ease-out 0.75s;
+  animation-fill-mode: backwards;
 }
 
 @keyframes backgroundScale {
-    0% {
-        background-size: 100%;
-        /* background-position-x: 0; */
-    }
-    100% {
-        background-size: 110%;
-        /* background-position-x: -150px; */
-    }
+  0% {
+    background-size: 100%;
+    /* background-position-x: 0; */
+  }
+  100% {
+    background-size: 110%;
+    /* background-position-x: -150px; */
+  }
 }

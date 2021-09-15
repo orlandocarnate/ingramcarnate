@@ -1,239 +1,271 @@
-
 /****************  NAV BAR *****************/
 .nav-bar {
-    height: 5rem;
-    background-color: #212529;
+  height: 5rem;
+  background-color: #212529;
 }
 
-.nav-bar a:link, 
-.nav-bar a:visited
-{
-    text-decoration: none;
-    color: #e9ecef;
+.nav-bar a:link,
+.nav-bar a:visited {
+  text-decoration: none;
+  color: #e9ecef;
 }
 
 .logo-text {
-    text-transform: uppercase;
-    font-family: 'Playfair Display', serif;
-    font-size: 3.6rem;
-    font-weight: 500;
-    padding-left: 10px;
-    
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  font-size: 3.6rem;
+  font-weight: 500;
+  padding-left: 10px;
 }
 
 /**************** HEADER *****************/
 .header {
-    height: 90vh;
-    position: relative;
-    background-image: 
-        linear-gradient(
-            to right,
-            rgba(82, 46, 226, 0.204),
-            rgba(34, 32, 30, 0.891)),
-        url('../img/hero.jpg');
-    /* transition: 1s ease background-size; */
-    background-size: cover;
-    background-position: top left;
-    /* background-position-x: -150px; */
-    /* animation: backgroundScale 3s ease-out; */
-    /* animation-fill-mode: backwards; */
-
-    /* clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%); */
+  height: 90vh;
+  position: relative;
+  background-image: linear-gradient(
+      to right,
+      rgba(82, 46, 226, 0.204),
+      rgba(34, 32, 30, 0.891)
+    ),
+    url("../img/hero.jpg");
+  background-size: cover;
+  background-position: top left;
 }
 
 .header__text-box {
-    position: absolute;
-    top: 40%;
-    left: 60%;
-    transform: translate(-50%, -50%);
-    /* text-align: center; */
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  transform: translateY(-50%);
+  /* text-align: center; */
 }
 .heading-primary--main {
-    display: block;
-    /* white-space: nowrap; */
-    font-family: 'Playfair Display', serif;
-    font-size: 6rem;
-    font-weight: 500;
-    /* letter-spacing: .5rem; */
-    /* text-transform: uppercase; */
-    color: #fff;
+  display: block;
+  /* white-space: nowrap; */
+  font-family: "Playfair Display", serif;
+  font-size: 6rem;
+  font-weight: 500;
+  /* letter-spacing: .5rem; */
+  /* text-transform: uppercase; */
+  color: #fff;
 
-    animation: moveInTop 1s ease-out;
+  animation: moveInTop 1s ease-out;
 
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .heading-primary--sub {
-    display: block;
-    /* white-space: nowrap; */
-    font-family: 'Playfair Display', serif;
-    font-weight: 400;
-    color: #fff;
-    font-size: 3rem;
-    
-    animation: moveInBottom 1s ease-out;
-    animation-fill-mode: backwards;
+  display: block;
+  /* white-space: nowrap; */
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 3rem;
 
-    margin-bottom: 8rem;
+  animation: moveInBottom 1s ease-out;
+  animation-fill-mode: backwards;
+
+  margin-bottom: 8rem;
 }
 
 /**************** ALL OCCASIONS SECTION *****************/
 .section__all-occasions {
-    padding: 9.6rem 0;
-    /* background-color: #f1f3f5; */
-    color: #333;
-    min-height: 80vh;
+  padding: 9.6rem 0;
+  /* background-color: #f1f3f5; */
+  color: #333;
+  min-height: 80vh;
 }
 
 .card {
-    /* width: 30rem; */
+  /* width: 30rem; */
 }
 
 .card-img {
-    object-fit: cover;
-    width: 100%;
+  object-fit: cover;
+  width: 100%;
 }
 
 .card-text {
-    font-size: 1.8rem;
-    line-height: 1.5;
+  font-size: 1.8rem;
+  line-height: 1.5;
 }
 .card-text h2 {
-    text-transform: uppercase;
-    padding-bottom: 2rem;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
 }
 
 /**************** QUALITY SECTION *****************/
 .section-quality-assurance {
-    padding-top: 9.6rem;
-    font-size: 2.4rem;
-    font-weight: 700;
-    /* display: flex;
+  padding-top: 9.6rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  /* display: flex;
     justify-content: center; */
-    text-align: center;
-    /* gap: 10rem */
+  text-align: center;
+  /* gap: 10rem */
 }
 
 .qa-icons {
-    width: 4rem;
-    height: 4rem;
+  width: 4rem;
+  height: 4rem;
 }
 
 /**************** COLLECTIONS SECTION *****************/
 .section-collection {
-    padding-top: 9.6rem;
-    padding-bottom: 9.6rem;
-    background-color: #212529;
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
+  background-color: #212529;
 }
 
-
 .collection-text-box {
-    font-size: 2.4rem;
-    color: #f1f3f5;
+  font-size: 2.4rem;
+  color: #f1f3f5;
 }
 
 .collection-text-box h2,
 .collection-text-box p {
-    padding-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 
 .collection-img {
-    position: relative;
+  position: relative;
 }
 
 .collection-img-primary {
-    object-fit: cover;
-    width: 60rem;
-    height: 60rem;
-
+  object-fit: cover;
+  width: 60rem;
+  height: 60rem;
 }
 
 .collection-img-sub {
-    /* display: inline-block; */
-    padding: 9.6rem 0;
-    object-fit: cover;
-    width: 30rem;
-    height: 40rem;
+  /* display: inline-block; */
+  padding: 9.6rem 0;
+  object-fit: cover;
+  width: 30rem;
+  height: 40rem;
 
-    position: absolute;
-    left:230;
+  position: absolute;
+  left: 230;
 
-    z-index: 2;
+  z-index: 2;
 }
 
+/**************** CUSTOMER SUPPORT SECTION *****************/
+.section-support {
+  padding-top: 4.8rem;
+  /* padding-bottom: 9.6rem; */
+  color: #fff;
+  background-color: #212529;
+}
+
+.section-support .container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.support-img {
+  width: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba(82, 46, 226, 0.204),
+      rgba(34, 32, 30, 0.891)
+    ),
+    url("../img/gallery/styling-examples/styling-6_orig.jpg");
+  background-size: cover;
+  background-position: top left;
+}
 
 /**************** TESTIMONIALS SECTION *****************/
 .section-testimonials {
-    padding-top: 4.8rem;
-    /* min-height: 50vh; */
+  padding-top: 4.8rem;
+  /* min-height: 50vh; */
 }
 
 .testimonial-img {
-    width: 12rem;
-    border-radius: 50%;
-    margin-bottom: 2.4rem;
-    
+  width: 12rem;
+  border-radius: 50%;
+  margin-bottom: 2.4rem;
 }
 
 .testimonial-text {
-    font-size: 1.8rem;
-    line-height: 1.6;
-    margin-bottom: 1.8rem;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 1.8rem;
 }
 
 .testimonial-name {
-    font-size: 1.8rem;
-    color: #495057;
+  font-size: 1.8rem;
+  color: #495057;
 }
 /**************** PROCESS SECTION *****************/
 .section-process {
-    background-color: #212529;
-    color: #f8f9fa
+  padding: 4.8rem 0;
+  background-color: #212529;
+  color: #f8f9fa;
 }
 
-/**************** FEATURES SECTION *****************/
-.section-feature {
-    padding-top: 4.8rem;
-    /* padding-bottom: 9.6rem; */
-    color: #fff;
-    /* min-height: 70vh; */
-    background-color: #212529;
-    /* clip-path: polygon(0 8%, 100% 0%, 100% 100%, 0 100%); */
+.process-steps {
+  /* align-items: center; */
+  column-gap: 4.8rem;
+  row-gap: 2.4rem;
 }
 
+.process-number {
+  font-family: "Playfair Display", serif;
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.process-img-box {
+  position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.process-img {
+  /* display: none; */
+  height: 40rem;
+  width: 40rem;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 2.4rem #b097fcaf;
+}
 
 /**************** CTA SECTION *****************/
 .section-cta {
-    /* min-height: 50vh; */
-    padding: 9.6rem 0 12.8rem 0;
-    
+  /* min-height: 50vh; */
+  padding: 9.6rem 0 12.8rem 0;
 }
 
 .cta {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    margin-bottom: 9.6rem;
-    background-color: #9775fa;
-    overflow: hidden;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-bottom: 9.6rem;
+  background-color: #9775fa;
+  overflow: hidden;
 
-    /* height: 54rem; */
+  /* height: 54rem; */
 }
 
 .cta-text-box {
-    padding: 4.8rem 6.4rem;
-    color: #f3f0ff
+  padding: 4.8rem 6.4rem;
+  color: #f3f0ff;
 }
 
 .cta-text-box .subheading {
-    color: #f3f0ff;
-    margin-bottom: 2.4rem;
+  color: #f3f0ff;
+  margin-bottom: 2.4rem;
 }
 
 .cta-form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 3.2rem;
-    column-gap: 2.4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 3.2rem;
+  column-gap: 2.4rem;
 }
 
 .cta-form input::placeholder,
@@ -241,58 +273,57 @@
   color: #aaa;
 }
 
-
 .cta-label {
-    display: block;
-    font-size: 1.6rem;
-    font-weight: 500;
-    margin-bottom: 1.2rem;
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
 }
 
 .cta-input,
 .cta-select {
-    width: 100%;
-    border: none;
-    padding: 1.2rem;
-    font-size: 1.8rem;
-    font-family: inherit;
-    background-color: #f3f0ff;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.836);
+  width: 100%;
+  border: none;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  background-color: #f3f0ff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.836);
 }
 
 .cta-checkbox {
-    display: flex;
-    margin-bottom: 1.2rem;
+  display: flex;
+  margin-bottom: 1.2rem;
 }
 
 .cta-checkbox input {
-    width: 2rem;
-    height: 2rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .cta-checkbox-label {
-    padding-left: .8rem;
-    font-size: 1.8rem;
+  padding-left: 0.8rem;
+  font-size: 1.8rem;
 }
 
 .btn--form {
-    background-color: #5f3dc4;
-    font-family: inherit;
-    border: none;
+  background-color: #5f3dc4;
+  font-family: inherit;
+  border: none;
 }
 
 .btn--form:hover {
-    background-color: #e5dbff;
-    color: #5f3dc4;
+  background-color: #e5dbff;
+  color: #5f3dc4;
 }
 
 .cta-img {
-    background-image: linear-gradient(
-            to right bottom,
-            rgba(178, 6, 241, 0.326),
-            rgba(0, 128, 255, 0.353)
-        ),
-        url('../img/style-1.jpg');
-        background-size: cover;
-        background-position: center;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(178, 6, 241, 0.326),
+      rgba(0, 128, 255, 0.353)
+    ),
+    url("../img/style-1.jpg");
+  background-size: cover;
+  background-position: center;
 }

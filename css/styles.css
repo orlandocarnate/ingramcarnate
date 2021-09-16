@@ -159,7 +159,7 @@
   background-color: #212529;
 }
 
-.section-support .container {
+.section-support-grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
 }

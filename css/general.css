@@ -1,3 +1,30 @@
+/* COLORS */
+/*
+-----------------
+purples/violets
+mid to dark:
+#845ef7
+#7950f2
+#7048e8
+#5f3dc4
+
+#e5dbff - light
+
+-----------------
+grays
+#333
+
+*/
+
+/* FONT SIZES */
+/*
+p: 2rem/20px
+
+*/
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -17,11 +44,11 @@ h1 {
     padding-bottom: 4.5rem;
 }
 
-p {
+/* p {
   font-size: 1.8rem;
   font-weight: 300;
   line-height: 1.5;
-}
+} */
 .container {
   max-width: 120rem;
   padding: 0 3.2rem;
@@ -81,6 +108,16 @@ p {
 
   transition: all 0.3s;
 }
+
+.btn--white-outline:link,
+.btn--white-outline:visited {
+  border: 2px solid #fff;
+}
+.btn--white-outline:active,
+.btn--white-outline:hover {
+  background-color: #ffffff34;
+}
+
 
 .btn--purple:link,
 .btn--purple:visited {

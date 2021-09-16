@@ -25,20 +25,27 @@
     <title>IngramCarnate Custom Suits</title>
   </head>
   <body>
-    <nav class="nav-bar">
-      <a href="#">
-        <span class="logo-text">IngramCarnate</span>
-      </a>
-    </nav>
-
+    
     <header class="header section-fade fade-in">
+      <nav class="main-nav">
+        <span class="logo-text"><a class="logo-link" href="#">IngramCarnate</a></span>
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#all-occasions">Any occasion</a></li>
+          <li><a class="main-nav-link" href="#collection">Our collection</a></li>
+          <li><a class="main-nav-link" href="#about">About Us</a></li>
+          <li><a class="main-nav-link" href="#testimonials">Testimonials</a></li>
+          <li><a class="main-nav-link" href="#process">Our process</a></li>
+          <li><a class="main-nav-link nav-cta" href="#">Make an appointment</a></li>
+        </ul>
+  
+      </nav>
       <div class="header__text-box">
         <span class="heading-primary--main">Men's Professional Attire</span>
         <span class="heading-primary--sub">
           Servicing Chicago and Northwest Suburbs</span
         >
 
-        <a class="btn btn--purple btn--animate" href="#all-occasions">Learn More &darr;</a>
+        <a class="btn btn--white-outline btn--animate" href="#all-occasions">Learn More &darr;</a>
         <a class="btn btn--purple btn--animate" href="#cta">Make an appointment</a>
       </div>
     </header>
@@ -102,7 +109,7 @@
     </section>
 
     
-    <section class="section-fade fade-up section-collection">
+    <section class="section-fade fade-up section-collection" id="collection">
       <div class="container grid grid--2-cols">
         <div class="collection-img">
           <img class="collection-img-primary" src="./img/casual.jpg" alt="collection">
@@ -137,11 +144,14 @@
     </section>
 
         
-    <section class="section-fade fade-up section-support">
+    <section class="section-fade fade-up section-support" id="about">
       <div class="container">
-        <div class="subheading">We're here for you</div>
+        <div class="subheading">About Us</div>
+        <div class="heading">We're here for you</div>
+      </div>
+      <div class="container">
         <div class="section-support-grid">
-                  <div class="support-text-box">
+                  <div class="support-text-box support-text">
           <p>Once we get you measured... Professional Dress for Men in Chicago and NW
           Suburbs for business, casual and special life moments.</p>
                   <p>
@@ -172,7 +182,7 @@
       
     </section>
 
-    <section class="section-fade fade-in section-testimonials">
+    <section class="section-fade fade-in section-testimonials" id="testimonials">
       <div class="container">
         <div class="subheading">Testimonials</div>
         <div class="heading">What our clients are saying</div>
@@ -215,7 +225,7 @@
             <p class="testimonial-name">&mdash; Jesse</p>
           </figure>
 
-          <figure class="section-fade fade-in testimonial">
+          <figure class="section-fade fade-up testimonial">
             <img 
             class="testimonial-img" 
             alt="Photo of customer 4"
@@ -234,11 +244,11 @@
     <section class="section-fade fade-in section-process">
       <div class="container">
         <div class="subheading">Our Process</div>
-        <h1>Our designers are with you every step of the way to ensure you'll love your custom IngramCarnate garment.</h1>
+        <div class="heading">Our designers are with you every step of the way to ensure you'll love your custom IngramCarnate garment.</div>
       </div>
 
-      <div class="container">
-        <div class="process-steps grid grid--2-cols">
+      <div class="container" id="process">
+        <div class="process-steps grid grid--2-cols process-text">
           <div class="section-fade fade-up process-text-box">
             <div class="process-number">1</div class="process-number">
             <p>Our designers will work with you in creating your perfect garment beginning with the function of your item whether for a special event, business or classy casual outings.</p>
@@ -340,6 +350,53 @@
       </div>
       </div>
     </section>
+
+    <footer class="footer">
+      <div class="container grid grid--4-cols">
+        <div class="logo-col">
+            <a class="logo-text logo-link logo-footer-text" href="#">IngramCarnate</a>
+            <ul class="social-list">
+              <li><a class="footer-nav-link" href="#"><ion-icon class="footer-social-icon" name="logo-instagram"></ion-icon></a></li>
+              <li><a class="footer-nav-link" href="#"><ion-icon class="footer-social-icon" name="logo-twitter"></ion-icon></a></li>
+              <li><a class="footer-nav-link" href="#"><ion-icon class="footer-social-icon" name="logo-facebook"></ion-icon></a></li>
+              <li><a class="footer-nav-link" href="#"><ion-icon class="footer-social-icon" name="logo-linkedin"></ion-icon></a></li>
+            </ul>
+          <p class="copyright">Copyright &copy; 2019-2021 by IngramCarnate, Inc. All rights reserved.</p>
+        </div>
+
+
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts footer-text">
+            <p class="address">124 Third St., Chicago, IL 60001</p>
+            <p>
+              <a href="tel:555-555-5555">555-555-5555</a><br />
+              <a href="mailto:hello@ingramcarnate.com">hello@ingramcarnate.com</a>
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">About</p> 
+          <ul class="footer-nav-list footer-text">
+            <li><a class="footer-nav-link" href="#">Home</a></li>
+            <li><a class="footer-nav-link" href="#all-occasions">Any occasion</a></li>
+            <li><a class="footer-nav-link" href="#collection">Our collection</a></li>
+            <li><a class="footer-nav-link" href="#about">About Us</a></li>
+            <li><a class="footer-nav-link" href="#testimonials">Testimonials</a></li>
+            <li><a class="footer-nav-link" href="#process">Our process</a></li>
+            <li><a class="footer-nav-link nav-cta" href="#cta">Make an appointment</a></li>
+          </ul>
+        </nav>
+        <div class="resources-links-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav-list footer-text">
+            <li><a class="footer-nav-link" href="#">Help Center</a></li>
+            <li><a class="footer-nav-link" href="#">Privacy & Terms</a></li>
+        </ul>
+        </div>
+      </div>
+    </footer>
 
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

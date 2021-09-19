@@ -6,6 +6,7 @@
   height: 7.2rem;
   padding: 0 3.2rem;
   background-color: #212529;
+  position: relative;
 }
 
 .logo-link:link,

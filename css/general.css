@@ -28,14 +28,20 @@ p: 2rem/20px
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  /* box-sizing: inherit; */
+  box-sizing: border-box;
 }
 
 html {
-  box-sizing: border-box;
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
   font-family: "Urbanist", sans-serif;
   color: #333;
-  font-size: 62.5%;
+  overflow-x: hidden;
+
 }
 
 h1 {

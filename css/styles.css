@@ -1,59 +1,11 @@
-/****************  NAV BAR *****************/
-.main-nav {
+/**************** HEADER *****************/
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* height: 5rem; */
-  padding: 0 4.8rem;
+  height: 7.2rem;
+  padding: 0 3.2rem;
   background-color: #212529;
-}
-
-.main-nav-list {
-  list-style: none;
-  display: flex;
-  align-items: center;
-
-  gap: 3.2rem;
-}
-
-.main-nav-link:link,
-.main-nav-link:visited {
-  display: inline-block;
-  align-items: center;
-  text-decoration: none;
-  color: #7950f2;
-  font-weight: 500;
-  font-size: 1.8rem;
-  transition: color 0.3s;
-  
-}
-
-.main-nav-link.nav-cta:link,
-.main-nav-link.nav-cta:active
- {
-  background-color: #845ef7;
-    display: inline-block;
-
-  padding: .5rem 2rem;
-  /* margin: 0 2rem 2rem 0; */
-  color: #fff;
-  text-decoration: none;
-
-  font-size: 2rem;
-  font-weight: 500;
-
-  transition: all 0.3s;
-}
-
-.main-nav-link.nav-cta:hover,
-.main-nav-link.nav-cta:visited {
-  background-color: #5f3dc4;
-}
-
-.main-nav-link:hover,
-.main-nav-link:active {
-  color: #d0bfff;
-
 }
 
 .logo-link:link,
@@ -69,21 +21,91 @@
   font-weight: 500;
 }
 
-/**************** HEADER *****************/
-.header {
+/****************  NAV BAR *****************/
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+
+  gap: 2.4rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  align-items: center;
+  text-decoration: none;
+  color: #845ef7;
+  font-weight: 500;
+  transition: color 0.3s;
+  
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #d0bfff;
+
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited
+ {
+  background-color: #845ef7;
+    display: inline-block;
+
+  padding: 1.5rem 2rem;
+  /* margin: 0 2rem 2rem 0; */
+  color: #f3f0ff;
+  text-decoration: none;
+
+  /* font-size: 2rem; */
+  font-weight: 500;
+
+  transition: all 0.3s;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #5f3dc4;
+  color: #f3f0ff;
+}
+
+/**************** MOBILE BUTTONS *****************/
+.btn-mobile-nav {
+  border:none;
+  background: none;
+  cursor: pointer;
+  
+    display: none;
+}
+.btn-mobile-icon {
+  color: #845ef7;;
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+.btn-mobile-icon[name='close-outline'] {
+  display: none;
+}
+
+
+/**************** HERO SECTION *****************/
+.section-hero {
   height: 90vh;
   position: relative;
   background-image: linear-gradient(
-      to right,
-      rgba(82, 46, 226, 0.204),
-      rgba(34, 32, 30, 0.891)
+    to right,
+    rgba(82, 46, 226, 0.204),
+    rgba(34, 32, 30, 0.891)
     ),
     url("../img/hero.jpg");
   background-size: cover;
   background-position: top left;
+  background-repeat: no-repeat;
 }
 
-.header__text-box {
+.hero__text-box {
   width: 100%;
   position: absolute;
   top: 40%;
@@ -180,27 +202,17 @@
 }
 
 .collection-img {
-  position: relative;
+  width: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba(82, 46, 226, 0.204),
+      rgba(34, 32, 30, 0.891)
+    ),
+    url("../img/casual.jpg");
+  background-size: cover;
+  background-position: top left;
 }
 
-.collection-img-primary {
-  object-fit: cover;
-  width: 60rem;
-  height: 60rem;
-}
-
-.collection-img-sub {
-  /* display: inline-block; */
-  padding: 9.6rem 0;
-  object-fit: cover;
-  width: 30rem;
-  height: 40rem;
-
-  position: absolute;
-  left: 230;
-
-  z-index: 2;
-}
 
 /**************** CUSTOMER SUPPORT SECTION *****************/
 .section-support {

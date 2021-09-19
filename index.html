@@ -26,29 +26,41 @@
   </head>
   <body>
     
-    <header class="header section-fade fade-in">
+    <header class="header nav-open">
+      <span class="logo-text"><a class="logo-link" href="#">IngramCarnate</a></span>
       <nav class="main-nav">
-        <span class="logo-text"><a class="logo-link" href="#">IngramCarnate</a></span>
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#all-occasions">Any occasion</a></li>
           <li><a class="main-nav-link" href="#collection">Our collection</a></li>
           <li><a class="main-nav-link" href="#about">About Us</a></li>
           <li><a class="main-nav-link" href="#testimonials">Testimonials</a></li>
           <li><a class="main-nav-link" href="#process">Our process</a></li>
-          <li><a class="main-nav-link nav-cta" href="#">Make an appointment</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Make an appointment</a></li>
         </ul>
-  
       </nav>
-      <div class="header__text-box">
-        <span class="heading-primary--main">Men's Professional Attire</span>
-        <span class="heading-primary--sub">
-          Servicing Chicago and Northwest Suburbs</span
-        >
 
-        <a class="btn btn--white-outline btn--animate" href="#all-occasions">Learn More &darr;</a>
-        <a class="btn btn--purple btn--animate" href="#cta">Make an appointment</a>
-      </div>
+      <button class="btn-mobile-nav">
+        <ion-icon class="btn-mobile-icon" name="menu-outline"></ion-icon>
+        <ion-icon class="btn-mobile-icon" name="close-outline"></ion-icon>
+      </button>
+
     </header>
+
+    <main>
+      <section class="section-hero section-fade fade-in">
+        <div class="hero__text-box">
+          <span class="heading-primary--main">Men's Professional Attire</span>
+          <span class="heading-primary--sub">
+            Servicing Chicago and Northwest Suburbs</span
+          >
+    
+          <a class="btn btn--white-outline btn--animate" href="#all-occasions">Learn More &darr;</a>
+          <a class="btn btn--purple btn--animate" href="#cta">Make an appointment</a>
+        </div>
+
+      </section>
+    </main>
+    
 
     <section class="section-fade fade-in section__all-occasions" id="all-occasions">
       <div class="container">
@@ -112,8 +124,6 @@
     <section class="section-fade fade-up section-collection" id="collection">
       <div class="container grid grid--2-cols">
         <div class="collection-img">
-          <img class="collection-img-primary" src="./img/casual.jpg" alt="collection">
-          <!-- <img class="collection-img-sub" src="./img/casual.jpg" alt="collection"> -->
         </div>
         <div class="collection-text-box">
           <h2>Explore our collection</h2>
@@ -351,7 +361,7 @@
       </div>
     </section>
 
-    <footer class="footer">
+    <footer class="section-fade fade-in footer">
       <div class="container grid grid--4-cols">
         <div class="logo-col">
             <a class="logo-text logo-link logo-footer-text" href="#">IngramCarnate</a>

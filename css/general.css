@@ -92,9 +92,7 @@ h1 {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.btn,
-.btn--purple:link,
-.btn--purple:visited {
+.btn {
   display: inline-block;
 
   padding: 1rem 3rem;
@@ -122,6 +120,7 @@ h1 {
 .btn--purple:link,
 .btn--purple:visited {
   background-color: #845ef7;
+  border: 2px solid #845ef7;
 }
 
 .btn--purple:hover,

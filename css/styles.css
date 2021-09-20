@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 7.2rem;
+  height: 9.6rem;
   padding: 0 3.2rem;
   background-color: #212529;
   position: relative;
@@ -72,13 +72,31 @@
   color: #f3f0ff;
 }
 
+/* Stick Nav */
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.306);
+}
+
+/* Add margin to top of section hero after navbar is removed */
+.sticky .section-hero {
+  margin-top: 9.6rem;
+}
+
 /**************** MOBILE BUTTONS *****************/
 .btn-mobile-nav {
   border:none;
   background: none;
   cursor: pointer;
   
-    display: none;
+  display: none;
 }
 .btn-mobile-icon {
   color: #845ef7;;

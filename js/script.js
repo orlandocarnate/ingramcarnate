@@ -1,6 +1,14 @@
 // set current year
-// enter code here
+const currentYearId = document.getElementById('current-year');
+currentYearId.innerText = new Date().getFullYear();
 
+// Mobile Nav Menu
+const headerEl = document.querySelector('header');
+const navBtn = document.querySelector('btn-mobile-nav');
+
+window.addEventListener('click', () => {
+    headerEl.classList.toggle('nav-open');
+})
 
 // Smooth scrolling animation
 const allLinks = document.querySelectorAll('a');

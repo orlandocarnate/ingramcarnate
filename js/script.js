@@ -1,8 +1,8 @@
-// set current year
+// ---------- set current year ----------
 const currentYearId = document.getElementById('current-year');
 currentYearId.innerText = new Date().getFullYear();
 
-// Mobile Nav Menu
+// ---------- Mobile Nav Menu ----------
 const headerEl = document.querySelector('header');
 const navBtn = document.querySelector('btn-mobile-nav');
 
@@ -10,7 +10,7 @@ window.addEventListener('click', () => {
     headerEl.classList.toggle('nav-open');
 })
 
-// Smooth scrolling animation
+// ---------- Smooth scrolling animation ----------
 const allLinks = document.querySelectorAll('a');
 
 allLinks.forEach((link) => {
@@ -35,30 +35,6 @@ allLinks.forEach((link) => {
     })
 })
 
-// Sticky Navbar
-const stickyFade = {
-  root: null,
-  threshold: 0,
-  // stick Navbar when 80px within view
-  rootMargin: "-80px",
-};
-
-const sectionHeroElem = document.querySelector('.section-hero');
-
-const navObserver = new IntersectionObserver( entries => {
-    const entry = entries[0];
-    if (!entry.isIntersecting) {
-        document.body.classList.add('sticky');
-    }
-    if (entry.isIntersecting) {
-        document.body.classList.remove('sticky');
-    }
-}, stickyFade)
-
-navObserver.observe(sectionHeroElem);
-
-// Fade Intersection Observer
-
 const optionsFade = {
     root: null,
     threshold: 0,
@@ -82,3 +58,26 @@ window.addEventListener('DOMContentLoaded', (event) => {
         fadeInObserver.observe(section);
     }
 });
+
+
+// ---------- Sticky Navbar ----------
+const stickyOption = {
+  root: null,
+  threshold: 0,
+  // stick Navbar when 80px within view
+  rootMargin: "-80px",
+};
+
+const sectionHeroElem = document.querySelector('.section-hero');
+
+const navObserver = new IntersectionObserver( entries => {
+    const entry = entries[0];
+    if (!entry.isIntersecting) {
+        document.body.classList.add('sticky');
+    }
+    if (entry.isIntersecting) {
+        document.body.classList.remove('sticky');
+    }
+}, stickyOption)
+
+navObserver.observe(sectionHeroElem);

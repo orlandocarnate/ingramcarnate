@@ -122,6 +122,7 @@
   background-size: cover;
   background-position: top left;
   background-repeat: no-repeat;
+  /* margin-bottom: 9.6rem; */
 }
 
 .hero__text-box {
@@ -187,32 +188,16 @@
   padding-bottom: 2rem;
 }
 
-/**************** QUALITY SECTION *****************/
-.section-quality-assurance {
-  padding-top: 9.6rem;
-  font-size: 2.4rem;
-  font-weight: 700;
-  /* display: flex;
-    justify-content: center; */
-  text-align: center;
-  /* gap: 10rem */
-}
-
-.qa-icons {
-  width: 4rem;
-  height: 4rem;
-}
-
 /**************** COLLECTIONS SECTION *****************/
 .section-collection {
   padding-top: 9.6rem;
   padding-bottom: 9.6rem;
-  background-color: #212529;
+
 }
 
 .collection-text-box {
   font-size: 2.4rem;
-  color: #f1f3f5;
+
 }
 
 .collection-text-box h2,
@@ -232,13 +217,9 @@
   background-position: top left;
 }
 
-
-/**************** CUSTOMER SUPPORT SECTION *****************/
+/**************** QUALITY SECTION *****************/
 .section-support {
-  padding-top: 4.8rem;
-  /* padding-bottom: 9.6rem; */
-  color: #fff;
-  background-color: #212529;
+  padding: 9.6rem;
 }
 
 .support-text {
@@ -264,9 +245,25 @@
   background-position: top left;
 }
 
+.section-quality-assurance {
+  padding: 9.6rem 0;
+  font-size: 2.4rem;
+  font-weight: 700;
+  /* display: flex;
+    justify-content: center; */
+  text-align: center;
+  /* gap: 10rem */
+}
+
+.qa-icons {
+  width: 4rem;
+  height: 4rem;
+}
+
+
 /**************** TESTIMONIALS SECTION *****************/
 .section-testimonials {
-  padding-top: 4.8rem;
+  padding: 9.6rem 0;
   /* min-height: 50vh; */
 }
 
@@ -284,13 +281,13 @@
 
 .testimonial-name {
   font-size: 1.8rem;
-  color: #495057;
+  color: #838f9a;
+  
 }
 /**************** PROCESS SECTION *****************/
 .section-process {
-  padding: 4.8rem 0;
-  background-color: #212529;
-  color: #f8f9fa;
+  padding: 9.6rem 0;
+
 }
 
 .process-text {
@@ -338,7 +335,7 @@
 .cta {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  margin-bottom: 9.6rem;
+  /* margin-bottom: 9.6rem; */
   background-color: #9775fa;
   overflow: hidden;
 
@@ -422,15 +419,16 @@
   background-position: center;
 }
 
-/**************** CTA SECTION *****************/
+/**************** FOOTER SECTION *****************/
 .footer {
-  padding-bottom: 9.6rem;
+  padding: 9.6rem;
   color: #333;
 }
 
 .footer-heading {
   margin-bottom: 3.2rem;
-  font-weight: 700;
+  font-size: 2.4rem;
+  font-weight: 500;
 }
 
 
@@ -455,7 +453,7 @@
 }
 
 .copyright {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-top: auto;
 }
 
